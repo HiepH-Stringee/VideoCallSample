@@ -1,0 +1,6 @@
+framework module Pods_VideoCallSample_VideoCallSampleUITests {
+  umbrella header "Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

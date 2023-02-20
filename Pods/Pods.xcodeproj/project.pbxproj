@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BD698EE4CCC7F707A351871758593550 /* Stringee */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABA0F0E16CC10F3BE9955D76F43EE270 /* Build configuration list for PBXAggregateTarget "Stringee" */;
+			buildPhases = (
+			);
+			dependencies = (
+				C7DE0DA15915EA7C56AD4597D3C5B419 /* PBXTargetDependency */,
+			);
+			name = Stringee;
+		};
+		EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleWebRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0106B36278E4507DB65957AE1FB6BE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		10234CF66E11C514ECCFE4596A0F0A65 /* Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0787703F6074666268637A5BD32EA0F /* Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237882B4CBDAEDD4710B62009CCB0D35 /* Pods-VideoCallSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE72C8555D7DD5F03CF43615E43F29B /* Pods-VideoCallSample-dummy.m */; };
+		65FD1DE64E297821683C6E5C438D5052 /* Pods-VideoCallSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80549DEF411E63207802F878A83B71F0 /* Pods-VideoCallSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D083DE63A37B4D255D582A18FBB6BD0D /* Pods-VideoCallSample-VideoCallSampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4CA8CCBAD0E7685747F0E054226FF5 /* Pods-VideoCallSample-VideoCallSampleUITests-dummy.m */; };
+		D31DE5B215AFF9E9B86957B607B1333E /* Pods-VideoCallSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6317E03B6F9F988A7268DF6F7AAD62F8 /* Pods-VideoCallSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E816122218354EAFE23F03D00FE7C0AD /* Pods-VideoCallSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98244AB567CCFA08E956766DC24A4978 /* Pods-VideoCallSampleTests-dummy.m */; };
+		F663032E77B70E6EDEFAE2A308B39E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F68284CF1AE494C5C42EA93A1CE779D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B489D0BC3F2CCE07EC1A6A7E4D2B3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD698EE4CCC7F707A351871758593550;
+			remoteInfo = Stringee;
+		};
+		74EC1ADB38815095CDE14EB3C06B03E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F358C626D1554E1A9CF11B78686F128A;
+			remoteInfo = "Pods-VideoCallSample";
+		};
+		8E5EBF964DE6D3B1D3687046AE8C3F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		A64344FCA4C95B5BB2E816B75EB5093C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		A6E7D54F47B0D510CF631A646E35C7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		BE1E40B23539A1178BF50705CEE76A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD698EE4CCC7F707A351871758593550;
+			remoteInfo = Stringee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00604D6AF8176015DBEBD3D069EE0493 /* Pods-VideoCallSample-VideoCallSampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSample-VideoCallSampleUITests-Info.plist"; sourceTree = "<group>"; };
+		007CA84A517AF27CC0992FBC71AB31FE /* StringeePhotoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeePhotoMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeePhotoMessage.h; sourceTree = "<group>"; };
+		04EFC4CEB2648EFD6CED2B47696E63B1 /* StringeeVideoTrackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoTrackInfo.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoTrackInfo.h; sourceTree = "<group>"; };
+		09EBD0CC6C55AE720CE2CCAEDA743005 /* StringeeVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoTrack.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoTrack.h; sourceTree = "<group>"; };
+		0B1C306234FC69D08D4256536BEE03BA /* StringeeQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeQueue.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeQueue.h; sourceTree = "<group>"; };
+		1049E62CA05D7576C579FB9900E24EDA /* StringeeChatRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeChatRequest.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeChatRequest.h; sourceTree = "<group>"; };
+		1439FFF48AC77DD3F8FF147C2F7F1A2C /* Pods-VideoCallSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoCallSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23135A808218F26A45A21E275954FF17 /* Stringee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stringee.debug.xcconfig; sourceTree = "<group>"; };
+		25B648A8773E808B3515D25E5722BA85 /* Pods-VideoCallSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoCallSample-frameworks.sh"; sourceTree = "<group>"; };
+		2B297F9CBD3D5740B96F7D20B2D8827D /* Pods-VideoCallSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VideoCallSample"; path = Pods_VideoCallSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8D610103AF431CB75026AC1A6D8D17 /* StringeeObjectChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeObjectChange.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeObjectChange.h; sourceTree = "<group>"; };
+		395C4EA92B03596EDCF7BAEDDA4242B5 /* StringeeLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeLocationMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeLocationMessage.h; sourceTree = "<group>"; };
+		3B88897E7F8C440BA22EA345190732C4 /* StringeeLocalVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeLocalVideoView.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeLocalVideoView.h; sourceTree = "<group>"; };
+		4B65B96ABB2324E304390DAAEB28EFB0 /* Pods-VideoCallSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoCallSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B6C0203DA85F9D235063683DB749B52 /* StringeeVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoView.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoView.h; sourceTree = "<group>"; };
+		4C2866580B6A402B8786375D0E0F1406 /* GoogleWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.debug.xcconfig; sourceTree = "<group>"; };
+		4D73503AEDC85E50D7BBBBA895C1C951 /* StringeeRemoteVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeRemoteVideoView.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeRemoteVideoView.h; sourceTree = "<group>"; };
+		4E349779CD1C91758076500C661FDDF1 /* StringeeCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeCall.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeCall.h; sourceTree = "<group>"; };
+		506A9AD69DC38A5CB2CF8064B734BF5B /* Pods-VideoCallSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		5155E8EDC5D480021DD7A518434C0600 /* Pods-VideoCallSample-VideoCallSampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VideoCallSample-VideoCallSampleUITests"; path = Pods_VideoCallSample_VideoCallSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B3A7D165B1C1D59036DFBA87FAD6AB /* StringeeAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeAudioMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeAudioMessage.h; sourceTree = "<group>"; };
+		55CF290A6E02BB2DAA4AD7F1A117E98D /* StringeeCall2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeCall2.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeCall2.h; sourceTree = "<group>"; };
+		55EB0E6A3167251982178899F97532C3 /* StringeeIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeIdentity.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeIdentity.h; sourceTree = "<group>"; };
+		5CBC488DE7BE040F7F4CBDC6DC5B644C /* StringeeStickerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeStickerMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeStickerMessage.h; sourceTree = "<group>"; };
+		5F5A9E7082899037445A4B4CC9CAEA94 /* StringeeRoomUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeRoomUserInfo.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeRoomUserInfo.h; sourceTree = "<group>"; };
+		6317E03B6F9F988A7268DF6F7AAD62F8 /* Pods-VideoCallSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoCallSample-umbrella.h"; sourceTree = "<group>"; };
+		68D34716F23ACC53F4A35A409A945155 /* Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B4CA8CCBAD0E7685747F0E054226FF5 /* Pods-VideoCallSample-VideoCallSampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoCallSample-VideoCallSampleUITests-dummy.m"; sourceTree = "<group>"; };
+		6C0F9AC105D6766C4B44B440A6DA3ED6 /* StringeeConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeConversation.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeConversation.h; sourceTree = "<group>"; };
+		71FF745123C6C51B6A326B950AAE7AB5 /* Pods-VideoCallSampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSampleTests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BFF9C64AC8C8FFCA337708D36B7EDE6 /* StringeeAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeAudioManager.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeAudioManager.h; sourceTree = "<group>"; };
+		7DF75858173EA83B5DD15D66225A9726 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		80549DEF411E63207802F878A83B71F0 /* Pods-VideoCallSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoCallSampleTests-umbrella.h"; sourceTree = "<group>"; };
+		815E32E40A6CB163580D3B8541E4018B /* StringeeVideoRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoRoom.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoRoom.h; sourceTree = "<group>"; };
+		843D1B8BB36109138487FAECF0E4F3F1 /* StringeeConversationOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeConversationOption.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeConversationOption.h; sourceTree = "<group>"; };
+		8AB39BBD94D26F3B644FCBD4B8B3BBDB /* Pods-VideoCallSampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VideoCallSampleTests"; path = Pods_VideoCallSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9AB8B9E6FAF2FFFE0B8429BDBD8EE3 /* Pods-VideoCallSample-VideoCallSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSample-VideoCallSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9482FC8290ACC7C3728E5B80717FCC7B /* GoogleWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.release.xcconfig; sourceTree = "<group>"; };
+		98244AB567CCFA08E956766DC24A4978 /* Pods-VideoCallSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoCallSampleTests-dummy.m"; sourceTree = "<group>"; };
+		9AA6409F4467FD0C8B775DCCDE305850 /* StringeeRoomStreamConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeRoomStreamConfig.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeRoomStreamConfig.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47D26E964DCDB662490B343409F2B9B /* Pods-VideoCallSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSample.release.xcconfig"; sourceTree = "<group>"; };
+		A53FA524A20DBFBBF9A3E039E2FF74B0 /* Pods-VideoCallSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A56FAFA1276167530B9783DD777788DC /* Stringee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stringee.release.xcconfig; sourceTree = "<group>"; };
+		ADE72C8555D7DD5F03CF43615E43F29B /* Pods-VideoCallSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoCallSample-dummy.m"; sourceTree = "<group>"; };
+		AF489A16AF1192218ABCCEB3808C43AE /* Pods-VideoCallSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B11833B1FFD1028508DA9EB82BCCA2C0 /* Pods-VideoCallSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C9305260DCAC44CCFAC352AE59CE7E /* StringeeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideo.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideo.h; sourceTree = "<group>"; };
+		B719D1FFD0AE1C7AB94C374E8179CBF4 /* StringeeVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoMessage.h; sourceTree = "<group>"; };
+		BA6F865F938119F4AAF5CA431D795D59 /* Pods-VideoCallSample-VideoCallSampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoCallSample-VideoCallSampleUITests.modulemap"; sourceTree = "<group>"; };
+		BA7EE9EC07D09B42552A7FA9C31D4710 /* Pods-VideoCallSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSample-Info.plist"; sourceTree = "<group>"; };
+		C31D0BDF5147975E72BD0547D4885D60 /* Pods-VideoCallSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoCallSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDEBE8EDBC791D10919B192548554854 /* StringeeProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeProgress.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeProgress.h; sourceTree = "<group>"; };
+		D36C635E420EB28D5F5546A92B85D64D /* Stringee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stringee.framework; path = Stringee/Classes/Stringee.framework; sourceTree = "<group>"; };
+		D3AA890D074FE70B7CC7CE8BC4F96D0A /* Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5B04C06E91295119041B6A852C0C115 /* Pods-VideoCallSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoCallSampleTests.modulemap"; sourceTree = "<group>"; };
+		D9FEF708622852914CA4C65F8743FA81 /* StringeeContactMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeContactMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeContactMessage.h; sourceTree = "<group>"; };
+		DD69379ED8D661C9DFE59A2BE680F817 /* StringeeVideoTrackOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeVideoTrackOption.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeVideoTrackOption.h; sourceTree = "<group>"; };
+		E0164741699D2BB4C4D83ADBD30CEAB2 /* StringeeServerAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeServerAddress.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeServerAddress.h; sourceTree = "<group>"; };
+		E332B1FD9DE99117558AFB3B8C460CC4 /* Pods-VideoCallSample-VideoCallSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoCallSample-VideoCallSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D0901D6BCE6166885210AE66074051 /* Pods-VideoCallSample-VideoCallSampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoCallSample-VideoCallSampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E812106A2C90BDF72F76E75027337EDA /* StringeeTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeTextMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeTextMessage.h; sourceTree = "<group>"; };
+		E94F0F8B874CC11EAE13E1E3B478C59F /* StringeeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeClient.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeClient.h; sourceTree = "<group>"; };
+		EDCACCDCB383F00AC0A9F0BAFC4FF7C7 /* Stringee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stringee.h; path = Stringee/Classes/Stringee.framework/Headers/Stringee.h; sourceTree = "<group>"; };
+		F0787703F6074666268637A5BD32EA0F /* Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		F2071CEC2ABC7DA700A591C1C8CAD4DF /* StringeeChatProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeChatProfile.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeChatProfile.h; sourceTree = "<group>"; };
+		F6DB0C9CC0F5D84C8D19734B8BBABE4D /* StringeeFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeFileMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeFileMessage.h; sourceTree = "<group>"; };
+		FA32039F13CE2B8FDF18767D39A4E203 /* StringeeMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringeeMessage.h; path = Stringee/Classes/Stringee.framework/Headers/StringeeMessage.h; sourceTree = "<group>"; };
+		FE19F9C25683CDBE774E33C9FEC9D601 /* Pods-VideoCallSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoCallSample.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7716A8114EAB01203FF6B954E34B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0106B36278E4507DB65957AE1FB6BE69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0293680FE7EEDBA1290E9145D89834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F663032E77B70E6EDEFAE2A308B39E76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD12418B159F4237A637D4D83DBE1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68284CF1AE494C5C42EA93A1CE779D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04909E1FFC276A5092AC3BA71B04FC5F /* Pods-VideoCallSample-VideoCallSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6F865F938119F4AAF5CA431D795D59 /* Pods-VideoCallSample-VideoCallSampleUITests.modulemap */,
+				D3AA890D074FE70B7CC7CE8BC4F96D0A /* Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.markdown */,
+				68D34716F23ACC53F4A35A409A945155 /* Pods-VideoCallSample-VideoCallSampleUITests-acknowledgements.plist */,
+				6B4CA8CCBAD0E7685747F0E054226FF5 /* Pods-VideoCallSample-VideoCallSampleUITests-dummy.m */,
+				E5D0901D6BCE6166885210AE66074051 /* Pods-VideoCallSample-VideoCallSampleUITests-frameworks.sh */,
+				00604D6AF8176015DBEBD3D069EE0493 /* Pods-VideoCallSample-VideoCallSampleUITests-Info.plist */,
+				F0787703F6074666268637A5BD32EA0F /* Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h */,
+				E332B1FD9DE99117558AFB3B8C460CC4 /* Pods-VideoCallSample-VideoCallSampleUITests.debug.xcconfig */,
+				8B9AB8B9E6FAF2FFFE0B8429BDBD8EE3 /* Pods-VideoCallSample-VideoCallSampleUITests.release.xcconfig */,
+			);
+			name = "Pods-VideoCallSample-VideoCallSampleUITests";
+			path = "Target Support Files/Pods-VideoCallSample-VideoCallSampleUITests";
+			sourceTree = "<group>";
+		};
+		1A2A38BBBA5D6A849A07CE9000BDD8EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23135A808218F26A45A21E275954FF17 /* Stringee.debug.xcconfig */,
+				A56FAFA1276167530B9783DD777788DC /* Stringee.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Stringee";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FBF9966E227A8245DE8978A17B71890 /* Pods-VideoCallSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B04C06E91295119041B6A852C0C115 /* Pods-VideoCallSampleTests.modulemap */,
+				1439FFF48AC77DD3F8FF147C2F7F1A2C /* Pods-VideoCallSampleTests-acknowledgements.markdown */,
+				C31D0BDF5147975E72BD0547D4885D60 /* Pods-VideoCallSampleTests-acknowledgements.plist */,
+				98244AB567CCFA08E956766DC24A4978 /* Pods-VideoCallSampleTests-dummy.m */,
+				71FF745123C6C51B6A326B950AAE7AB5 /* Pods-VideoCallSampleTests-Info.plist */,
+				80549DEF411E63207802F878A83B71F0 /* Pods-VideoCallSampleTests-umbrella.h */,
+				B11833B1FFD1028508DA9EB82BCCA2C0 /* Pods-VideoCallSampleTests.debug.xcconfig */,
+				AF489A16AF1192218ABCCEB3808C43AE /* Pods-VideoCallSampleTests.release.xcconfig */,
+			);
+			name = "Pods-VideoCallSampleTests";
+			path = "Target Support Files/Pods-VideoCallSampleTests";
+			sourceTree = "<group>";
+		};
+		689E7989008DE52F0E97823AAB10DEE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2866580B6A402B8786375D0E0F1406 /* GoogleWebRTC.debug.xcconfig */,
+				9482FC8290ACC7C3728E5B80717FCC7B /* GoogleWebRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleWebRTC";
+			sourceTree = "<group>";
+		};
+		6B15A4944D16125A867126FF03C29839 /* GoogleWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				A45D89F9F1D69EA5EB1B012B9859A69B /* Frameworks */,
+				689E7989008DE52F0E97823AAB10DEE1 /* Support Files */,
+			);
+			name = GoogleWebRTC;
+			path = GoogleWebRTC;
+			sourceTree = "<group>";
+		};
+		6C36484A87CFF370EBD9E8E3D22B9CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36C635E420EB28D5F5546A92B85D64D /* Stringee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CF940E73C861DF8B20125E050BD3B87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3478D0009D18EE0280C6B1A25114A8 /* Pods-VideoCallSample */,
+				04909E1FFC276A5092AC3BA71B04FC5F /* Pods-VideoCallSample-VideoCallSampleUITests */,
+				5FBF9966E227A8245DE8978A17B71890 /* Pods-VideoCallSampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A45D89F9F1D69EA5EB1B012B9859A69B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF75858173EA83B5DD15D66225A9726 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3478D0009D18EE0280C6B1A25114A8 /* Pods-VideoCallSample */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F9C25683CDBE774E33C9FEC9D601 /* Pods-VideoCallSample.modulemap */,
+				4B65B96ABB2324E304390DAAEB28EFB0 /* Pods-VideoCallSample-acknowledgements.markdown */,
+				506A9AD69DC38A5CB2CF8064B734BF5B /* Pods-VideoCallSample-acknowledgements.plist */,
+				ADE72C8555D7DD5F03CF43615E43F29B /* Pods-VideoCallSample-dummy.m */,
+				25B648A8773E808B3515D25E5722BA85 /* Pods-VideoCallSample-frameworks.sh */,
+				BA7EE9EC07D09B42552A7FA9C31D4710 /* Pods-VideoCallSample-Info.plist */,
+				6317E03B6F9F988A7268DF6F7AAD62F8 /* Pods-VideoCallSample-umbrella.h */,
+				A53FA524A20DBFBBF9A3E039E2FF74B0 /* Pods-VideoCallSample.debug.xcconfig */,
+				A47D26E964DCDB662490B343409F2B9B /* Pods-VideoCallSample.release.xcconfig */,
+			);
+			name = "Pods-VideoCallSample";
+			path = "Target Support Files/Pods-VideoCallSample";
+			sourceTree = "<group>";
+		};
+		B01E292DB4214E24152D2689221E6D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B15A4944D16125A867126FF03C29839 /* GoogleWebRTC */,
+				DFD12B66F59CFA273EF41D426B8D3817 /* Stringee */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC4C8D3A7C0D3F6726B14B00659446AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B297F9CBD3D5740B96F7D20B2D8827D /* Pods-VideoCallSample */,
+				5155E8EDC5D480021DD7A518434C0600 /* Pods-VideoCallSample-VideoCallSampleUITests */,
+				8AB39BBD94D26F3B644FCBD4B8B3BBDB /* Pods-VideoCallSampleTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B01E292DB4214E24152D2689221E6D2A /* Pods */,
+				BC4C8D3A7C0D3F6726B14B00659446AB /* Products */,
+				6CF940E73C861DF8B20125E050BD3B87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD12B66F59CFA273EF41D426B8D3817 /* Stringee */ = {
+			isa = PBXGroup;
+			children = (
+				EDCACCDCB383F00AC0A9F0BAFC4FF7C7 /* Stringee.h */,
+				7BFF9C64AC8C8FFCA337708D36B7EDE6 /* StringeeAudioManager.h */,
+				52B3A7D165B1C1D59036DFBA87FAD6AB /* StringeeAudioMessage.h */,
+				4E349779CD1C91758076500C661FDDF1 /* StringeeCall.h */,
+				55CF290A6E02BB2DAA4AD7F1A117E98D /* StringeeCall2.h */,
+				F2071CEC2ABC7DA700A591C1C8CAD4DF /* StringeeChatProfile.h */,
+				1049E62CA05D7576C579FB9900E24EDA /* StringeeChatRequest.h */,
+				E94F0F8B874CC11EAE13E1E3B478C59F /* StringeeClient.h */,
+				D9FEF708622852914CA4C65F8743FA81 /* StringeeContactMessage.h */,
+				6C0F9AC105D6766C4B44B440A6DA3ED6 /* StringeeConversation.h */,
+				843D1B8BB36109138487FAECF0E4F3F1 /* StringeeConversationOption.h */,
+				F6DB0C9CC0F5D84C8D19734B8BBABE4D /* StringeeFileMessage.h */,
+				55EB0E6A3167251982178899F97532C3 /* StringeeIdentity.h */,
+				3B88897E7F8C440BA22EA345190732C4 /* StringeeLocalVideoView.h */,
+				395C4EA92B03596EDCF7BAEDDA4242B5 /* StringeeLocationMessage.h */,
+				FA32039F13CE2B8FDF18767D39A4E203 /* StringeeMessage.h */,
+				2C8D610103AF431CB75026AC1A6D8D17 /* StringeeObjectChange.h */,
+				007CA84A517AF27CC0992FBC71AB31FE /* StringeePhotoMessage.h */,
+				CDEBE8EDBC791D10919B192548554854 /* StringeeProgress.h */,
+				0B1C306234FC69D08D4256536BEE03BA /* StringeeQueue.h */,
+				4D73503AEDC85E50D7BBBBA895C1C951 /* StringeeRemoteVideoView.h */,
+				9AA6409F4467FD0C8B775DCCDE305850 /* StringeeRoomStreamConfig.h */,
+				5F5A9E7082899037445A4B4CC9CAEA94 /* StringeeRoomUserInfo.h */,
+				E0164741699D2BB4C4D83ADBD30CEAB2 /* StringeeServerAddress.h */,
+				5CBC488DE7BE040F7F4CBDC6DC5B644C /* StringeeStickerMessage.h */,
+				E812106A2C90BDF72F76E75027337EDA /* StringeeTextMessage.h */,
+				B1C9305260DCAC44CCFAC352AE59CE7E /* StringeeVideo.h */,
+				B719D1FFD0AE1C7AB94C374E8179CBF4 /* StringeeVideoMessage.h */,
+				815E32E40A6CB163580D3B8541E4018B /* StringeeVideoRoom.h */,
+				09EBD0CC6C55AE720CE2CCAEDA743005 /* StringeeVideoTrack.h */,
+				04EFC4CEB2648EFD6CED2B47696E63B1 /* StringeeVideoTrackInfo.h */,
+				DD69379ED8D661C9DFE59A2BE680F817 /* StringeeVideoTrackOption.h */,
+				4B6C0203DA85F9D235063683DB749B52 /* StringeeVideoView.h */,
+				6C36484A87CFF370EBD9E8E3D22B9CFB /* Frameworks */,
+				1A2A38BBBA5D6A849A07CE9000BDD8EB /* Support Files */,
+			);
+			name = Stringee;
+			path = Stringee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C8263964E2C7E82AFAC3935CFDE0BAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FD1DE64E297821683C6E5C438D5052 /* Pods-VideoCallSampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4059768ABAC2F7BD9F29AC9AF451A1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10234CF66E11C514ECCFE4596A0F0A65 /* Pods-VideoCallSample-VideoCallSampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584B3F281B5FE8DD5FF03BB701ADC8A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DE5B215AFF9E9B86957B607B1333E /* Pods-VideoCallSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54EA986E897C5CB1321DF72C8D7EDCA7 /* Pods-VideoCallSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FF6BE56BD7052C1820AA456EC42322 /* Build configuration list for PBXNativeTarget "Pods-VideoCallSampleTests" */;
+			buildPhases = (
+				0C8263964E2C7E82AFAC3935CFDE0BAD /* Headers */,
+				6188152DCC8BA36B0FBD4F6AE7980DD9 /* Sources */,
+				1E7716A8114EAB01203FF6B954E34B82 /* Frameworks */,
+				FD3D3E2B509FFB7449E18481C894FE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2BF86E718C87575E33C640DB47067C /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoCallSampleTests";
+			productName = Pods_VideoCallSampleTests;
+			productReference = 8AB39BBD94D26F3B644FCBD4B8B3BBDB /* Pods-VideoCallSampleTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5980EE79111C37928C58C88D4EDE21C /* Pods-VideoCallSample-VideoCallSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09C213AB413E4A0399F67CE37A5E08C /* Build configuration list for PBXNativeTarget "Pods-VideoCallSample-VideoCallSampleUITests" */;
+			buildPhases = (
+				4059768ABAC2F7BD9F29AC9AF451A1EF /* Headers */,
+				9E40C85D0FC3CC8276FADF668B4699CC /* Sources */,
+				FCD12418B159F4237A637D4D83DBE1B0 /* Frameworks */,
+				702EDD5D7B190143CCC35C5B712D5DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4264B3B915CF2B1436EC1481E733AF /* PBXTargetDependency */,
+				A0641FE46DA59FC0637D5E6961C6773C /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoCallSample-VideoCallSampleUITests";
+			productName = Pods_VideoCallSample_VideoCallSampleUITests;
+			productReference = 5155E8EDC5D480021DD7A518434C0600 /* Pods-VideoCallSample-VideoCallSampleUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F358C626D1554E1A9CF11B78686F128A /* Pods-VideoCallSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4724CCF8DABDC7564582BFF299FFD2 /* Build configuration list for PBXNativeTarget "Pods-VideoCallSample" */;
+			buildPhases = (
+				584B3F281B5FE8DD5FF03BB701ADC8A3 /* Headers */,
+				200B7420ACCFB3C33389309E47622A7E /* Sources */,
+				EC0293680FE7EEDBA1290E9145D89834 /* Frameworks */,
+				BB514595DFA63D707623F0BAD40BF9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D5E23F05E920AE2C6B997AF820181B /* PBXTargetDependency */,
+				B3D6497639F420D0D7259EE6A42914C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoCallSample";
+			productName = Pods_VideoCallSample;
+			productReference = 2B297F9CBD3D5740B96F7D20B2D8827D /* Pods-VideoCallSample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC4C8D3A7C0D3F6726B14B00659446AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */,
+				F358C626D1554E1A9CF11B78686F128A /* Pods-VideoCallSample */,
+				B5980EE79111C37928C58C88D4EDE21C /* Pods-VideoCallSample-VideoCallSampleUITests */,
+				54EA986E897C5CB1321DF72C8D7EDCA7 /* Pods-VideoCallSampleTests */,
+				BD698EE4CCC7F707A351871758593550 /* Stringee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702EDD5D7B190143CCC35C5B712D5DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB514595DFA63D707623F0BAD40BF9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D3E2B509FFB7449E18481C894FE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200B7420ACCFB3C33389309E47622A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237882B4CBDAEDD4710B62009CCB0D35 /* Pods-VideoCallSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6188152DCC8BA36B0FBD4F6AE7980DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E816122218354EAFE23F03D00FE7C0AD /* Pods-VideoCallSampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E40C85D0FC3CC8276FADF668B4699CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D083DE63A37B4D255D582A18FBB6BD0D /* Pods-VideoCallSample-VideoCallSampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E2BF86E718C87575E33C640DB47067C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VideoCallSample";
+			target = F358C626D1554E1A9CF11B78686F128A /* Pods-VideoCallSample */;
+			targetProxy = 74EC1ADB38815095CDE14EB3C06B03E5 /* PBXContainerItemProxy */;
+		};
+		A0641FE46DA59FC0637D5E6961C6773C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stringee;
+			target = BD698EE4CCC7F707A351871758593550 /* Stringee */;
+			targetProxy = BE1E40B23539A1178BF50705CEE76A48 /* PBXContainerItemProxy */;
+		};
+		B3D6497639F420D0D7259EE6A42914C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stringee;
+			target = BD698EE4CCC7F707A351871758593550 /* Stringee */;
+			targetProxy = 5B489D0BC3F2CCE07EC1A6A7E4D2B3B9 /* PBXContainerItemProxy */;
+		};
+		C7DE0DA15915EA7C56AD4597D3C5B419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = 8E5EBF964DE6D3B1D3687046AE8C3F0B /* PBXContainerItemProxy */;
+		};
+		DC4264B3B915CF2B1436EC1481E733AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = A64344FCA4C95B5BB2E816B75EB5093C /* PBXContainerItemProxy */;
+		};
+		F8D5E23F05E920AE2C6B997AF820181B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = A6E7D54F47B0D510CF631A646E35C7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20EA9E6F4AB637BF30254AEAB4766874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E332B1FD9DE99117558AFB3B8C460CC4 /* Pods-VideoCallSample-VideoCallSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSample-VideoCallSampleUITests/Pods-VideoCallSample-VideoCallSampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSample-VideoCallSampleUITests/Pods-VideoCallSample-VideoCallSampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2885FD729AB4442F273AF433F254B3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56FAFA1276167530B9783DD777788DC /* Stringee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A3D53C7F7EB8ADD155337FA4F642F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53FA524A20DBFBBF9A3E039E2FF74B0 /* Pods-VideoCallSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSample/Pods-VideoCallSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSample/Pods-VideoCallSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51FA924218B7E54A173BE199085F2081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11833B1FFD1028508DA9EB82BCCA2C0 /* Pods-VideoCallSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSampleTests/Pods-VideoCallSampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSampleTests/Pods-VideoCallSampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C2CABF7167658FD34181F25A4ED070B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9AB8B9E6FAF2FFFE0B8429BDBD8EE3 /* Pods-VideoCallSample-VideoCallSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSample-VideoCallSampleUITests/Pods-VideoCallSample-VideoCallSampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSample-VideoCallSampleUITests/Pods-VideoCallSample-VideoCallSampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9027363A3D038DCFD69E5EF94E6B38AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23135A808218F26A45A21E275954FF17 /* Stringee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA19C9D337B038C6BD9EA19FF7A97791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF489A16AF1192218ABCCEB3808C43AE /* Pods-VideoCallSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSampleTests/Pods-VideoCallSampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSampleTests/Pods-VideoCallSampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB11C6FF61DD3A44C2F99D55B212AA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9482FC8290ACC7C3728E5B80717FCC7B /* GoogleWebRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CD6CE349B36E08707582F96554D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47D26E964DCDB662490B343409F2B9B /* Pods-VideoCallSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoCallSample/Pods-VideoCallSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoCallSample/Pods-VideoCallSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF86AC2AE673969AA233A392DCDE2C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2866580B6A402B8786375D0E0F1406 /* GoogleWebRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4724CCF8DABDC7564582BFF299FFD2 /* Build configuration list for PBXNativeTarget "Pods-VideoCallSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D53C7F7EB8ADD155337FA4F642F2A /* Debug */,
+				B6CD6CE349B36E08707582F96554D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF86AC2AE673969AA233A392DCDE2C2D /* Debug */,
+				AB11C6FF61DD3A44C2F99D55B212AA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FF6BE56BD7052C1820AA456EC42322 /* Build configuration list for PBXNativeTarget "Pods-VideoCallSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FA924218B7E54A173BE199085F2081 /* Debug */,
+				AA19C9D337B038C6BD9EA19FF7A97791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA0F0E16CC10F3BE9955D76F43EE270 /* Build configuration list for PBXAggregateTarget "Stringee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9027363A3D038DCFD69E5EF94E6B38AC /* Debug */,
+				2885FD729AB4442F273AF433F254B3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09C213AB413E4A0399F67CE37A5E08C /* Build configuration list for PBXNativeTarget "Pods-VideoCallSample-VideoCallSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA9E6F4AB637BF30254AEAB4766874 /* Debug */,
+				7C2CABF7167658FD34181F25A4ED070B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
