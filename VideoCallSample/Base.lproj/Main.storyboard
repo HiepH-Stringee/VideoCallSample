@@ -89,22 +89,17 @@
                                 <rect key="frame" x="0.0" y="748" width="393" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUN-Od-XUA">
-                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="70"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="ic-video-selected-new"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtO-zS-0I3">
-                                        <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="70"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="ic-speaker-selected-new"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-eK-d6h">
-                                        <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="70"/>
+                                        <rect key="frame" x="131" y="0.0" width="131" height="70"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="ic-end-call-new"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZg-tx-YgJ">
-                                        <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="70"/>
+                                        <rect key="frame" x="262" y="0.0" width="131" height="70"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="ic-mute-selected-new"/>
                                     </button>
@@ -174,7 +169,6 @@
                         <outlet property="localVideo" destination="ANh-Ay-pFe" id="L20-tP-vhs"/>
                         <outlet property="muteBtn" destination="mZg-tx-YgJ" id="NQe-rF-i9v"/>
                         <outlet property="remoteVideo" destination="2I1-Ee-5HW" id="0SL-ld-A9J"/>
-                        <outlet property="soundBtn" destination="NtO-zS-0I3" id="dEW-mX-PAq"/>
                         <outlet property="status" destination="Jsi-mr-kSf" id="Zs5-J8-p0K"/>
                     </connections>
                 </viewController>
@@ -277,7 +271,6 @@
         <image name="ic-answer-new" width="98.666664123535156" height="98"/>
         <image name="ic-end-call-new" width="83.333335876464844" height="82.666664123535156"/>
         <image name="ic-mute-selected-new" width="87.333335876464844" height="87.333335876464844"/>
-        <image name="ic-speaker-selected-new" width="87.333335876464844" height="87.333335876464844"/>
         <image name="ic-switch-camera-new" width="211.33332824707031" height="210.66667175292969"/>
         <image name="ic-video-selected-new" width="87.333335876464844" height="87.333335876464844"/>
         <systemColor name="labelColor">

@@ -24,6 +24,8 @@ class StringeeConnectViewController: UIViewController {
         setupStringee()
     }
     
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? IncomingCallViewController,
            let call = sender as? StringeeCall2 {
@@ -94,5 +96,4 @@ extension StringeeConnectViewController: StringeeIncomingCallDelegate {
             }
         }
     }
-    
 }

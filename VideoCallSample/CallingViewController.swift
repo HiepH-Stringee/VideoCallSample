@@ -11,11 +11,10 @@ import Stringee
 class CallingViewController: UIViewController {
     
     @IBOutlet weak var cameraBtn: UIButton!
-    @IBOutlet weak var soundBtn: UIButton!
     @IBOutlet weak var hangupBtn: UIButton!
     @IBOutlet weak var muteBtn: UIButton!
     
-    private var isEnableSpeaker = true
+    private var isMute = false
     private var isEnableLocalVideo = true
 
     
@@ -51,7 +50,7 @@ class CallingViewController: UIViewController {
     
     private func setupAction() {
         cameraBtn.addTarget(self, action: #selector(didTapCameraBtn), for: .touchUpInside)
-        soundBtn.addTarget(self, action: #selector(didTapSpeaker), for: .touchUpInside)
+        muteBtn.addTarget(self, action: #selector(didTapMute), for: .touchUpInside)
         hangupBtn.addTarget(self, action: #selector(didTapHangup), for: .touchUpInside)
         
     }
@@ -62,9 +61,9 @@ class CallingViewController: UIViewController {
         self.call.enableLocalVideo(self.isEnableLocalVideo)
     }
     
-    @objc func didTapSpeaker() {
-        self.isEnableSpeaker = !self.isEnableSpeaker
-        StringeeAudioManager.instance().setLoudspeaker(self.isEnableSpeaker)
+    @objc func didTapMute() {
+        self.isMute = !self.isMute
+        self.call.mute(self.isMute)
     }
     
     @objc func didTapHangup() {
