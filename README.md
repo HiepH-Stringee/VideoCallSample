@@ -98,6 +98,7 @@ extension StringeeConnectViewController: StringeeConnectionDelegate {
 
 ### 2. Xử lý sự kiện khi có cuộc gọi đến
 Implement StringeeIncomingCallDelegate để xử lý sự kiện khi có cuộc gọi đến
+
 ```
 import UIKit
 import Stringee
@@ -138,7 +139,7 @@ extension StringeeConnectViewController: StringeeIncomingCallDelegate {
 ### 3. Tạo một cuộc gọi video
 Khi người dùng nhập UserID của người nhận cuộc gọi và nhấn nút **start video call** ta thực hiện tạo một cuộc gọi Video Call như sau: 
 
-```swift
+```
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? CallingViewController,
         let call = sender as? StringeeCall2 {
@@ -156,7 +157,7 @@ Khi người dùng nhập UserID của người nhận cuộc gọi và nhấn n
 ``` 
 
 ### 4. Trả lời/Từ chối cuộc cuộc gọi
-```swift
+```
 import UIKit
 import Stringee
 
@@ -194,7 +195,7 @@ Một cuộc gọi sẽ có 2 trường hợp:
  - ***Incoming call:*** Để bắt đầu cuộc gọi này, ta thực hiện gọi ***call.initAnswer()*** trước khi gọi hàm ***call.answer {status, code, msg in } *** để bắt đầu cuộc gọi.
  -  ***outgoing call:*** Để bắt đầu một cuộc gọi ra ta gọi hàm ***call.make{ status, code, clientMsg, serverMsg in  }***
  
- ```swift
+ ```
  class CallingViewController: UIViewController {
      private func setupCall() {
          if call.isIncomingCall {
@@ -271,7 +272,7 @@ Thay đổi sử dụng camera trước và sau:
     }
 ```
 Ngắt cuộc gọi:
-```swift
+```
     @IBAction func didTapHangup(_ sender: Any) {
         call.hangup { status, code, mess in
             if !status {
