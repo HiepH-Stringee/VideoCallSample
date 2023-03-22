@@ -107,8 +107,8 @@ class StringeeConnectViewController: UIViewController {
     let client = StringeeClient()
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let vc = segue.destination  **as**? IncomingCallViewController,
-           let call = sender **as**? StringeeCall2 {
+        if let vc = segue.destination  as? IncomingCallViewController,
+           let call = sender as? StringeeCall2 {
                vc.call = call
                vc.ansAction = { [weak self] in
                    DispatchQueue.main.async {
