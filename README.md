@@ -141,7 +141,7 @@ Khi người dùng nhập UserID của người nhận cuộc gọi và nhấn n
 ```swift
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? CallingViewController,
-        let call = sender **as**? StringeeCall2 {
+        let call = sender as? StringeeCall2 {
             vc.call = call
         }
     }
@@ -164,12 +164,12 @@ class  IncomingCallViewController: UIViewController {
     @IBOutlet weak var userIDLBL: UILabel!
     var call: StringeeCall2!
     var ansAction: (() -> Void)?
-    override func**  viewDidLoad() {
+    override func  viewDidLoad() {
         super.viewDidLoad()
         self.userIDLBL.text = "Call from \(call.from ?? "stringee")"
     }
 
-    @IBAction func didTapReject(_ sender: **Any**) {
+    @IBAction func didTapReject(_ sender: Any) {
         call.reject { [weak self] status, code, message in
             guard let self = self else { return }
             if status {
